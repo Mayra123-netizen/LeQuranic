@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-box {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#questionContainer {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#optionsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.option {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+#nextButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#BACKButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#nextButton:hover {
+  background-color: #45a049;
+}
+#BackButton:hover {
+  background-color: #45a049;
+}
+
+
+#resultContainer {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#refreshButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+#levelupButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.option.selected {
+  background-color: black;
+  color: #ffffff;
+}
+
+.option.correct {
+  background-color: green;
+  color: #ffffff;
+}
+
+.option.incorrect {
+  background-color: red;
+  color: #ffffff;
+}
+
+
+/* Add your existing CSS styles here */
+.resultbutton {
+  background-color: purple;
+  color: white;
+   height: 50px;
+  padding: 10px ;
+  border: none;
+  border-radius: 10px;
+  text-decoration: cursive;
+  display: inline-block;
+  margin: 7px;
+}
